@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>An Animated Timeline</title>
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="bootstrap-4.1.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Rock+Salt|Shadows+Into+Light|Cedarville+Cursive">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="styles/about/about.css">
+  <link rel="stylesheet" href="css/fixed.css">
+</head>
+
+<body data-spy="scroll" data-target="#navbarResponsive">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#home"><img src="img/index/logos/white logo.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+<!-- End Navigation -->
+
+  <header>
+    <div class="poster">
+      <h1 class="poster__heading">My Background</h1>
+          <span class="poster__subheading">A dive into the past</span>
+    </div>
+  </header>
+<main class="timeline-wrapper">
+    
+    <div class="timeline-coord-link">
+      <svg width="8px" height="100" viewbox="5 5 10 10">
+        <rect x="50" y="50" width="100%" height="100%">
+          <circle cx="50%" cy="50%" r="4" fill="white"></circle>
+        </rect>
+      </svg>
+    </div>
+
+    <div class="svg-timeline">
+      <svg width="16px" height="2240px" viewBox="0 0 8 1490.7">
+        <!--<line id="electrical-cord" fill="none" stroke="#c5b000" stroke-width="8" stroke-miterlimit="10" x1="4" y1="-110" x2="4" y2="1990.7"/>-->
+        <!--<line id="electrical-cord" fill="none" stroke="#c5b000" stroke-width="8" x1="10" y1="0" x2="4" y2="1990.7"/>-->
+        <line id="electrical-cord" fill="none" stroke="#c5b000" stroke-width="8" x1="10" y1="0" x2="14.5" y2="1600"/>
+      </svg>
+    </div>
+
+    <ul class="timeline clearfix">
+      
+      <li class="timeline__item">
+        <h3 class="timeline__title">California Maritime Academy <span class="timeline__year">2014 - 2018</span></h3>
+        <p class="timeline__summary">Attended California Maritime Academy, participating in numerous extra-curricular activities:</p>
+        <ul class="timeline__inner-list">
+          <li class="inner-list-one-option">Resident Housing Officer</li>
+          <li class="inner-list-one-option">Corps of Cadets: MPM Company Commander</li>
+          <li class="inner-list-one-option">Varsity Soccer</li>
+          <li class="inner-list-one-option">Department of Energy: Wind Competition</li>
+        </ul>
+        <a class="calmaritime-brand"><img src="img/index/logos/calmaritime.png"></a>
+        <a href="https://www.energy.gov/articles/california-state-university-maritime-academy-blows-away-competition-3rd-biennial-collegiate" class="btn--comments windcomment">Wind Competition</a>
+      </li>
+
+      <li class="timeline__item right">
+        <h3 class="timeline__title titleTwo">So this is Computer Science<span class="timeline__year">2017 - 2018</span></h3>
+        <p class="timeline__summary">During my spare time at Cal Maritime I created small side project plugins for a Minecraft Server. This immediate code to visual change in gameplay has been what inspired my computer science career.</p>
+        <a class="minecraft-brand"><img src="img/about/minecraft man/minecraft_w_dark.png"></a>
+      </li>
+
+      <li class="timeline__item">
+        <h3 class="timeline__title titleThree">KMC Savills <span class="timeline__year">Summer 2017</span></h3>
+        <p class="timeline__summary">Three month summer internship in Manila, Philippines with a commercial real estate company called KMC Savills. Worked alongside the companies lead programmer to help organize and visualize their internal databases more efficiently.</p>
+        <p class="timeline__summary">Used C# and SQL in Visual Studios</p>
+        <ul class="timeline__inner-list">
+          <li class="inner-list-two-option">Visual Studio Code</li>
+          <li class="inner-list-two-option">C#</li>
+          <li class="inner-list-two-option">SQL</li>
+        </ul>
+        <a href="https://www.careerup.com/minecraft-to-cyber-security/" class="btn--comments kmc">CareerUp</a>
+      </li>
+
+      <li class="timeline__item right">
+        <h3 class="timeline__title titleFour">Cal Maritime Graduation<span class="timeline__year">Spring 2018</span></h3>
+        <p class="timeline__summary">Graduation! Earned a Bachelor of Science in International Business and Logistics: Business Administration. Immediately enrolled into Northeastern University to obtain an advanced degree.</p>
+        <a class="diploma-brand"><img src="img/about/diploma/diploma.png"></a>
+      </li>
+
+      <li class="timeline__item">
+        <h3 class="timeline__title titleFive">Northeastern University<span class="timeline__year">Fall 2018 - present</span></h3>
+        <p class="timeline__summary">Courses Taken:</p>
+          <ul class="timeline__inner-list">
+            <li>Intensive Foundations of CS: Python</li>
+            <li>Discrete and Data Structures</li>
+            <li>Computer Systems: C</li>
+            <li>Oject Oriented Design: Java</li>
+            <li>Database Management Systems: SQL</li>        
+            <li>HTML, CSS, Bootstrap 4, SCSS</li>
+            <li>Algorithms (current)</li>
+            <li>Compilers (current)</li>
+          </ul>
+      </li>
+    </ul>
+  </main>
+</body>
+</html>

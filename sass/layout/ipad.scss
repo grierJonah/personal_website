@@ -1,0 +1,39 @@
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .poster {
+      background: #020F70;
+      background-image: url("../../img/about/bubbles/bubbles.png");
+  
+      @include e('heading') {
+        color: white;
+        text-align: center !important;
+        max-width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        display: inline-block;
+        width: 8em;
+      }
+      @include e('subheading') {
+        color: white;
+        text-align: center !important;
+        max-width: 50%;
+        margin-left: 35%;
+        margin-right: 35%;
+        display: inline-block;
+        font-size: 35px;
+      }
+    }
+    .poster img {
+      max-width: 50%;
+      max-height: 30%;
+      position: relative;
+    }
+    body {
+      font-size: 30px;
+    }
+    .windcomment {
+      margin-top: 5rem;
+    }
+    .kmc {
+      margin-top: -5rem;
+    }
+  }

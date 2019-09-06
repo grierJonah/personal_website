@@ -1,0 +1,33 @@
+// ------------------------------IPHONE -------------------------
+@media only screen and (max-width: $sm) and (min-width: 0px) {
+    .poster {
+      background: #020F70;
+      background-image: url("../../img/about/bubbles/bubbles.png");
+  
+      @include e('heading') {
+        color: white;
+        text-align: center !important;
+        max-width: 50%;
+        margin-bottom: -12rem;
+        margin-left: 25%;
+      }
+      @include e('subheading') {
+        color: white;
+        text-align: center !important;
+        max-width: 50%;
+        margin-top: 50%;
+        margin-left: 25%;
+      }
+      @include e('name-signature') {
+        visibility: hidden;
+      }
+    }
+    .poster img {
+      max-width: 50%;
+      max-height: 30%;
+      position: relative;
+    }
+    .kmc {
+      margin-top: -2.5rem;
+    }
+  }
