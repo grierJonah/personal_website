@@ -39,8 +39,9 @@ html {
 }
 
 header {
-  height: 47.8rem; /*48.8rem;*/
+  height: 52.8rem; /*48.8rem;*/
   margin: 0 auto;
+  margin-bottom: -70px;
   padding: 0;
 }
 
@@ -75,7 +76,9 @@ header {
 
 .navbar-brand img {
   height: 3.2rem;
-  margin-bottom: -0.8rem;
+  margin-top: -0.15rem;
+  margin-bottom: -0.19rem;
+  margin-left: -0.2rem;
 }
 
 .navbar-nav li {
@@ -137,12 +140,14 @@ header {
 }
 
 .btn--comments {
+  background-color: white;
   background-color: rgba(255, 255, 255, 0.4);
   border: none;
   font-size: 0.6em;
   text-align: center;
 }
 .btn--comments:hover {
+  background-color: white;
   background-color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   color: white;
@@ -231,18 +236,6 @@ ul {
     width: 40%;
   }
 }
-.timeline__day {
-  font-weight: 600;
-  font-size: 0.9em;
-  color: white;
-  text-transform: uppercase;
-  padding-bottom: 0.75em;
-}
-.timeline__day span {
-  font-weight: 300;
-  color: orange;
-  text-transform: none;
-}
 .timeline__title {
   font-weight: 600;
   font-size: 0.9em;
@@ -251,14 +244,14 @@ ul {
   padding-bottom: 0.5em;
 }
 .timeline__title span {
-  font-weight: 300;
+  font-weight: 500;
   color: white;
   text-transform: none;
   float: right;
 }
 .timeline__summary {
   color: white;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 0.8em;
   display: block;
   margin-bottom: 0.1em;
@@ -266,7 +259,7 @@ ul {
 }
 .timeline__inner-list {
   color: white;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 0.8em;
   display: block;
   margin-left: 20%;
